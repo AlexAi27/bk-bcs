@@ -1,0 +1,101 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: bcs-logbeat-sidecar
+  namespace: kube-system
+---
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1beta1
+metadata:
+  name: bcs-logbeat-sidecar
+rules:
+- apiGroups:
+  - apiextensions.k8s.io
+  resources:
+  - customresourcedefinitions
+  verbs:
+  - get
+  - list
+  - watch
+  - update
+  - create
+- apiGroups:
+  - bkbcs.tencent.com
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- apiGroups:
+  - ""
+  resources:
+  - pods
+  verbs:
+  - get
+  - list
+  - watch
+---
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1beta1
+metadata:
+  name: bcs-logbeat-sidecar
+subjects:
+- kind: ServiceAccount
+  name: bcs-logbeat-sidecar
+  namespace: kube-system
+roleRef:
+  kind: ClusterRole
+  name: bcs-logbeat-sidecar
+  apiGroup: rbac.authorization.k8s.io
+---
+kind: DaemonSet
+apiVersion: apps/v1
+metadata:
+  name: bcs-logbeat-sidecar
+  namespace: kube-system
+spec:
+  selector:
+    matchLabels:
+      app: bcs-logbeat-sidecar
+  template:
+    metadata:
+      name: bcs-logbeat-sidecar
+      namespace: kube-system
+      labels:
+        app: bcs-logbeat-sidecar
+    spec:
+      serviceAccount: bcs-logbeat-sidecar
+      dnsPolicy: Default
+      tolerations:
+        - operator: "Exists"
+      containers:
+        - name: bcs-logbeat-sidecar
+          image: 
+          imagePullPolicy: "IfNotPresent"
+          command:
+            - "/data/bcs/bcs-logbeat-sidecar/bcs-logbeat-sidecar"
+          args:
+            - "--logbeat-dir=/data/unifytlogc/conf/subconfs"
+            - "--prefix_file=unifytlogc"
+            - "--logtostderr"
+            - "--v=3"
+          volumeMounts:
+            - name: unifytlogc-dir
+              mountPath: /data/unifytlogc/
+            - name: docker-daemon
+              mountPath: /var/run/
+            - name: tzfile
+              mountPath: /etc/localtime
+      volumes:
+        - name: unifytlogc-dir
+          hostPath:
+            path: /usr/local/gse_bkte/plugins/unifyTlogc/
+            type: DirectoryOrCreate
+        - name: docker-daemon
+          hostPath:
+            path: /var/run/
+            type: Directory
+        - name: tzfile
+          hostPath:
+            path: /etc/localtime
+            type: File
+      restartPolicy: Always
