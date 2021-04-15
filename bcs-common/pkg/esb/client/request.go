@@ -15,6 +15,7 @@ package client
 import (
 	"encoding/json"
 	"fmt"
+	"math/rand"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -244,8 +245,10 @@ func (r *Request) Do() *Result {
 	}
 
 	maxRetryCycle := 3
+	inds := generateRandomList(0, len(r.endpoints), len(r.endpoints))
 	for try := 0; try < maxRetryCycle; try++ {
-		for _, host := range r.endpoints {
+		for _, ind := range inds {
+			host := r.endpoints[ind]
 			url := r.scheme + host + r.WrapURL().String()
 
 			r.tryThrottle(url)
@@ -303,4 +306,23 @@ func (r *Result) Into(obj interface{}) error {
 		return fmt.Errorf("http request failed: %s", r.Status)
 	}
 	return nil
+}
+
+func generateRandomList(start int, end int, count int) []int {
+	if end < start || (end-start) < count {
+		return nil
+	}
+
+	nums := make([]int, 0)
+	exists := make(map[int]struct{})
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+	for len(nums) < count {
+		num := r.Intn((end - start)) + start
+		if _, ok := exists[num]; !ok {
+			exists[num] = struct{}{}
+			nums = append(nums, num)
+		}
+	}
+
+	return nums
 }
