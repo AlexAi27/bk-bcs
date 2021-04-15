@@ -13,7 +13,7 @@
 
 package master
 
-import bcstypes "github.com/Tencent/bk-bcs/bcs-common/common/types"
+import bcstypes "github.com/AlexAi27/bk-bcs/bcs-common/common/types"
 
 //Master register server node in event storage, like
 // zookeeper, etcd, check if local node is master

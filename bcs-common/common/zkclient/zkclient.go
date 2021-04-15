@@ -14,13 +14,13 @@
 package zkclient
 
 import (
-	//"github.com/Tencent/bk-bcs/bcs-common/common/blog"
+	//"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
 	"encoding/json"
 	"fmt"
 	"strings"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/static"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/static"
 
 	"github.com/samuel/go-zookeeper/zk"
 )

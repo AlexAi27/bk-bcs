@@ -16,11 +16,12 @@ package qcloud
 import (
 	"bytes"
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
 	"io/ioutil"
 	"net/http"
 	"reflect"
 	"strings"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
 
 	"github.com/google/go-querystring/query"
 )

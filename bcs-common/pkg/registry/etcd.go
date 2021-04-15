@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
 	"github.com/google/uuid"
 	"github.com/micro/go-micro/v2/registry"
 	"github.com/micro/go-micro/v2/registry/etcd"

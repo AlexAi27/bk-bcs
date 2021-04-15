@@ -22,9 +22,9 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	mopt "go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/odm/drivers"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/odm/operator"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/odm/drivers"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/odm/operator"
 )
 
 // Options options for mongo db

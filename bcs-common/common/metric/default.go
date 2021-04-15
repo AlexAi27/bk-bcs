@@ -18,7 +18,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/version"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/version"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -17,7 +17,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	paasclient "github.com/Tencent/bk-bcs/bcs-common/pkg/esb/client"
+	paasclient "github.com/AlexAi27/bk-bcs/bcs-common/pkg/esb/client"
 )
 
 // Config item for BlueKing Auth Center

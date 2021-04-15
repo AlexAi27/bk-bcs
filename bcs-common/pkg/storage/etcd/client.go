@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/meta"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/storage"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/watch"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/meta"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/storage"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/watch"
 
 	"github.com/coreos/etcd/clientv3"
 	"golang.org/x/net/context"

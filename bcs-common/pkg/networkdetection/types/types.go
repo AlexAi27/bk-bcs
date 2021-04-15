@@ -14,8 +14,8 @@
 package types
 
 import (
-	commtypes "github.com/Tencent/bk-bcs/bcs-common/common/types"
-	schedtypes "github.com/Tencent/bk-bcs/bcs-common/pkg/scheduler/schetypes"
+	commtypes "github.com/AlexAi27/bk-bcs/bcs-common/common/types"
+	schedtypes "github.com/AlexAi27/bk-bcs/bcs-common/pkg/scheduler/schetypes"
 )
 
 // NodeInfo mesos node information

@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
 	"github.com/gorilla/websocket"
 )
 

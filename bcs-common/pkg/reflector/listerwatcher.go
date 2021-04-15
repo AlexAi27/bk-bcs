@@ -15,8 +15,9 @@ package reflector
 
 import (
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/meta"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/watch"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/meta"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/watch"
 )
 
 // ListerWatcher is interface perform list all objects and start a watch

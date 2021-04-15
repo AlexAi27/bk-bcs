@@ -15,13 +15,14 @@ package httpserver
 
 import (
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/ssl"
-	"github.com/emicklei/go-restful"
-	"github.com/gorilla/mux"
 	"net"
 	"net/http"
 	"strconv"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/ssl"
+	"github.com/emicklei/go-restful"
+	"github.com/gorilla/mux"
 )
 
 // HttpServer is data struct of http server

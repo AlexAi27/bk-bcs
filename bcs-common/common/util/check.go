@@ -17,7 +17,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/types"
 )
 
 // CheckKind check object if expected

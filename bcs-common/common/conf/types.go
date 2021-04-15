@@ -23,8 +23,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/codec"
-	"github.com/Tencent/bk-bcs/bcs-common/common/util"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/codec"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/util"
 
 	simplejson "github.com/bitly/go-simplejson"
 	"github.com/spf13/pflag"

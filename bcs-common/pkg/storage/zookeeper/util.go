@@ -15,12 +15,13 @@ package zookeeper
 
 import (
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/zkclient"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/watch"
 	"path"
 	"sync"
 	"time"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/zkclient"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/watch"
 
 	"golang.org/x/net/context"
 )

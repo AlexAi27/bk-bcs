@@ -16,11 +16,12 @@ package tcpserver
 import (
 	"context"
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/tcp/protocol"
 	"io"
 	"net"
 	"time"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/tcp/protocol"
 )
 
 // tcpServer 服务对象定义

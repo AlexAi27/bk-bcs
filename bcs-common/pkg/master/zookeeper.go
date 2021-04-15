@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	bcstypes "github.com/Tencent/bk-bcs/bcs-common/common/types"
-	"github.com/Tencent/bk-bcs/bcs-common/common/zkclient"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	bcstypes "github.com/AlexAi27/bk-bcs/bcs-common/common/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/zkclient"
 
 	zktype "github.com/samuel/go-zookeeper/zk"
 	"golang.org/x/net/context"

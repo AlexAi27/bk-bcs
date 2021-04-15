@@ -18,11 +18,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/bcs-health/api"
-	"github.com/Tencent/bk-bcs/bcs-common/common/bcs-health/types"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/conf"
 	"os"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/bcs-health/api"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/bcs-health/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/conf"
 )
 
 func main() {

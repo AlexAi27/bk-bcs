@@ -15,7 +15,8 @@ package http
 
 import (
 	"encoding/json"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/watch"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/watch"
 )
 
 //Response basic response from http api

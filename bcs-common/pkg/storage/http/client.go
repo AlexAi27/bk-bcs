@@ -20,15 +20,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/meta"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/storage"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/watch"
 	"io/ioutil"
 	"math/rand"
 	syshttp "net/http"
 	"strings"
 	"time"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/meta"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/storage"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/watch"
 
 	"golang.org/x/net/context"
 )

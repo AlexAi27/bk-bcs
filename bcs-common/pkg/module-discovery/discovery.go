@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/RegisterDiscover"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/RegisterDiscover"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/types"
 
 	"golang.org/x/net/context"
 )

@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/conf"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/conf"
 )
 
 var pidfile string

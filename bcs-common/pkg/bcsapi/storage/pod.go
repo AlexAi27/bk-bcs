@@ -14,7 +14,7 @@
 package storage
 
 import (
-	mesostype "github.com/Tencent/bk-bcs/bcs-common/common/types"
+	mesostype "github.com/AlexAi27/bk-bcs/bcs-common/common/types"
 	core "k8s.io/api/core/v1"
 )
 

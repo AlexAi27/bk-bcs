@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"time"
 
-	http2 "github.com/Tencent/bk-bcs/bcs-common/common/http"
-	"github.com/Tencent/bk-bcs/bcs-common/common/ssl"
+	http2 "github.com/AlexAi27/bk-bcs/bcs-common/common/http"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/ssl"
 )
 
 //HttpRespone define the information of the http respone

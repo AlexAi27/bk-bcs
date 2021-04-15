@@ -1,4 +1,4 @@
-module github.com/Tencent/bk-bcs/bcs-common
+module github.com/AlexAi27/bk-bcs/bcs-common
 
 go 1.14
 

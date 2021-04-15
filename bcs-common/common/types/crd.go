@@ -15,7 +15,8 @@ package types
 
 import (
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/deepcopy"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/deepcopy"
 )
 
 //custom resource register spec

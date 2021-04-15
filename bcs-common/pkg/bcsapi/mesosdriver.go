@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/http/httpclient"
-	commtypes "github.com/Tencent/bk-bcs/bcs-common/common/types"
-	moduleDiscovery "github.com/Tencent/bk-bcs/bcs-common/pkg/module-discovery"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/networkdetection/types"
-	schedtypes "github.com/Tencent/bk-bcs/bcs-common/pkg/scheduler/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/http/httpclient"
+	commtypes "github.com/AlexAi27/bk-bcs/bcs-common/common/types"
+	moduleDiscovery "github.com/AlexAi27/bk-bcs/bcs-common/pkg/module-discovery"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/networkdetection/types"
+	schedtypes "github.com/AlexAi27/bk-bcs/bcs-common/pkg/scheduler/types"
 )
 
 // MesosDriver http API SDK definition

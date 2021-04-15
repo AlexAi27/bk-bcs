@@ -18,7 +18,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/version"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/version"
 
 	"github.com/spf13/pflag"
 )

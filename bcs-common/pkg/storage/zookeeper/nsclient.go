@@ -16,14 +16,15 @@ package zookeeper
 import (
 	"context"
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/zkclient"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/meta"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/storage"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/watch"
 	"path"
 	"strings"
 	"time"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/zkclient"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/meta"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/storage"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/watch"
 )
 
 //ZkConfig only data type node config

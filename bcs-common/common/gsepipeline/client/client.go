@@ -17,9 +17,10 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
 	"net"
 	"time"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
 )
 
 type dataHead struct {

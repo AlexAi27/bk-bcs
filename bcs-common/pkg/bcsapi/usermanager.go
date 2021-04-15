@@ -17,8 +17,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/types"
-	restclient "github.com/Tencent/bk-bcs/bcs-common/pkg/esb/client"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/types"
+	restclient "github.com/AlexAi27/bk-bcs/bcs-common/pkg/esb/client"
 )
 
 const (

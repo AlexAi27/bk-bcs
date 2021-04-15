@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/codec"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/codec"
 )
 
 // BcsStorageDynamicIf define storage dynamic interface data interaction

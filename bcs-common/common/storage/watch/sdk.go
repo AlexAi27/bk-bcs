@@ -20,10 +20,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common"
-	"github.com/Tencent/bk-bcs/bcs-common/common/codec"
-	"github.com/Tencent/bk-bcs/bcs-common/common/http/httpclient"
-	"github.com/Tencent/bk-bcs/bcs-common/common/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/codec"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/http/httpclient"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/types"
 )
 
 type storageError struct {

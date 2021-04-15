@@ -18,9 +18,9 @@ import (
 	"net/http"
 	"strconv"
 
-	paasclient "github.com/Tencent/bk-bcs/bcs-common/pkg/esb/client"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/esb/common"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/throttle"
+	paasclient "github.com/AlexAi27/bk-bcs/bcs-common/pkg/esb/client"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/esb/common"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/throttle"
 )
 
 // ClientInterface client interface for cmdb v1

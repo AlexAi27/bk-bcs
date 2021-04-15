@@ -14,8 +14,8 @@
 package types
 
 import (
-	"github.com/Tencent/bk-bcs/bcs-common/common/types"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos"
 )
 
 //Msg_Type Message describe all msg from bcs scheduler to bcs executor

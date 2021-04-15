@@ -19,9 +19,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/esb/client"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/throttle"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/esb/client"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/throttle"
 )
 
 const (

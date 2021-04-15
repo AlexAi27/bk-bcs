@@ -17,7 +17,7 @@ import (
 	"crypto/tls"
 	"encoding/json"
 
-	cm "github.com/Tencent/bk-bcs/bcs-common/pkg/bcsapi/clustermanager"
+	cm "github.com/AlexAi27/bk-bcs/bcs-common/pkg/bcsapi/clustermanager"
 )
 
 //! v4 version binding~

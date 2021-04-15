@@ -17,7 +17,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	glog "github.com/Tencent/bk-bcs/bcs-common/common/blog"
+
+	glog "github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
 	"github.com/micro/go-micro/v2/broker"
 	"github.com/micro/go-plugins/broker/rabbitmq/v2"
 	"github.com/micro/go-plugins/broker/stan/v2"

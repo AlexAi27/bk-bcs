@@ -14,7 +14,7 @@
 package utils
 
 import (
-	"github.com/Tencent/bk-bcs/bcs-common/common/bcs-health/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/bcs-health/types"
 )
 
 type AlarmFactory interface {

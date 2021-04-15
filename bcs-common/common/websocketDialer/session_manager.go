@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/websocketDialer/metrics"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/websocketDialer/metrics"
 	"github.com/gorilla/websocket"
 )
 

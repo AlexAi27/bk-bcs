@@ -15,7 +15,7 @@
 package mock_bkdata
 
 import (
-	bkdata "github.com/Tencent/bk-bcs/bcs-common/pkg/esb/apigateway/bkdata"
+	bkdata "github.com/AlexAi27/bk-bcs/bcs-common/pkg/esb/apigateway/bkdata"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

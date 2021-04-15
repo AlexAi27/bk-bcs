@@ -5,7 +5,7 @@
 package mock
 
 import (
-	bcsapi "github.com/Tencent/bk-bcs/bcs-common/pkg/bcsapi"
+	bcsapi "github.com/AlexAi27/bk-bcs/bcs-common/pkg/bcsapi"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

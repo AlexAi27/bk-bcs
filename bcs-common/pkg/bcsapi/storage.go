@@ -17,10 +17,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/types"
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/bcsapi/storage"
-	restclient "github.com/Tencent/bk-bcs/bcs-common/pkg/esb/client"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/bcsapi/storage"
+	restclient "github.com/AlexAi27/bk-bcs/bcs-common/pkg/esb/client"
 )
 
 // Storage interface definition for bcs-storage

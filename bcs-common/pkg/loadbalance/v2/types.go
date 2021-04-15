@@ -15,9 +15,10 @@ package loadbalance
 
 import (
 	"encoding/json"
-	commtypes "github.com/Tencent/bk-bcs/bcs-common/common/types"
 	"sort"
 	"strconv"
+
+	commtypes "github.com/AlexAi27/bk-bcs/bcs-common/common/types"
 )
 
 //NewPtrExportService create default ExportService

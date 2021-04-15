@@ -16,12 +16,13 @@ package tcpclient
 import (
 	"context"
 	"fmt"
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/tcp/protocol"
 	"io"
 	"net"
 	"sync"
 	"time"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/tcp/protocol"
 )
 
 // tcpClient tcp 客户端

@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog/glog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/conf"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog/glog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/conf"
 )
 
 // GlogWriter serves as a bridge between the standard log package and the glog package.

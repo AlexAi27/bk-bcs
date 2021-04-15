@@ -18,7 +18,8 @@ import (
 	"crypto/cipher"
 	"crypto/des"
 	"encoding/base64"
-	"github.com/Tencent/bk-bcs/bcs-common/common/static"
+
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/static"
 )
 
 var (

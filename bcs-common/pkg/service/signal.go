@@ -21,7 +21,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
 )
 
 // SetupSignalContext catch exit signal for process graceful exit

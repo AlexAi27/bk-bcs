@@ -17,7 +17,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/ssl"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/ssl"
 )
 
 // CMDOptions config item for etcd discovery

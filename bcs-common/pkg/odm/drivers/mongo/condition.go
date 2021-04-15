@@ -19,7 +19,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/odm/operator"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/odm/operator"
 )
 
 // Handle leaf node of Condition while combining

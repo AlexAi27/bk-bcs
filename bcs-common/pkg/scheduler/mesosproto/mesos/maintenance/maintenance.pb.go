@@ -18,8 +18,8 @@ package mesos_maintenance
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import mesos "github.com/Tencent/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos"
-import mesos_allocator "github.com/Tencent/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos/allocator"
+import mesos "github.com/AlexAi27/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos"
+import mesos_allocator "github.com/AlexAi27/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos/allocator"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

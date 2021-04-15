@@ -18,9 +18,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/conf"
-	"github.com/Tencent/bk-bcs/bcs-common/common/metric"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/conf"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/metric"
 )
 
 func main() {

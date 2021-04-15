@@ -19,8 +19,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	cm "github.com/Tencent/bk-bcs/bcs-common/pkg/bcsapi/clustermanager"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	cm "github.com/AlexAi27/bk-bcs/bcs-common/pkg/bcsapi/clustermanager"
 
 	"github.com/google/uuid"
 	"google.golang.org/grpc"

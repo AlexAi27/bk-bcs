@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Tencent/bk-bcs/bcs-common/common/blog"
-	"github.com/Tencent/bk-bcs/bcs-common/common/ssl"
-	bcstypes "github.com/Tencent/bk-bcs/bcs-common/common/types"
-	"github.com/Tencent/bk-bcs/bcs-common/common/zkclient"
-	types "github.com/Tencent/bk-bcs/bcs-common/pkg/bcsapi/netservice"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/blog"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/ssl"
+	bcstypes "github.com/AlexAi27/bk-bcs/bcs-common/common/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/common/zkclient"
+	types "github.com/AlexAi27/bk-bcs/bcs-common/pkg/bcsapi/netservice"
 )
 
 const (

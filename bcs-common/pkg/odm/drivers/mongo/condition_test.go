@@ -17,7 +17,7 @@ import (
 
 	"go.mongodb.org/mongo-driver/bson"
 
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/odm/operator"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/odm/operator"
 )
 
 // TestMongoQueryCondtionCombine test mongo query condition combine

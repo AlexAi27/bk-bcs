@@ -15,7 +15,7 @@ package cmdbv3
 import (
 	"fmt"
 
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/esb/common"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/esb/common"
 )
 
 // ESBSearchBusiness search business

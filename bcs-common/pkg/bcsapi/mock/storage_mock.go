@@ -5,7 +5,7 @@
 package mock
 
 import (
-	storage "github.com/Tencent/bk-bcs/bcs-common/pkg/bcsapi/storage"
+	storage "github.com/AlexAi27/bk-bcs/bcs-common/pkg/bcsapi/storage"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

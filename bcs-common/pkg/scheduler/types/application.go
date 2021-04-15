@@ -14,11 +14,12 @@
 package types
 
 import (
-	"github.com/Tencent/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos"
-	mesos_master "github.com/Tencent/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos/master"
 	"time"
 
-	commtypes "github.com/Tencent/bk-bcs/bcs-common/common/types"
+	"github.com/AlexAi27/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos"
+	mesos_master "github.com/AlexAi27/bk-bcs/bcs-common/pkg/scheduler/mesosproto/mesos/master"
+
+	commtypes "github.com/AlexAi27/bk-bcs/bcs-common/common/types"
 	//"fmt"
 )
 
