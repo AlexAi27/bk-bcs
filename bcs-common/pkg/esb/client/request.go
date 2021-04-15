@@ -237,7 +237,7 @@ func (r *Request) Do() *Result {
 		return result
 	}
 
-	if r.client.isTLS {
+	if r.client.tlsConf != nil {
 		r.scheme = SchemeHTTPS
 	} else {
 		r.scheme = SchemeHTTP
